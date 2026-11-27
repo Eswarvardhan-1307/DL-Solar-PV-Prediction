@@ -25,10 +25,6 @@ solar-pv-forecasting/
 ├── notebooks/
 │   ├── BTP_stage1.ipynb
 │   └── BTP_stage2_Final.ipynb
-│
-├── data/
-│   └── (download and extract the dataset here)
-│
 ├── README.md
 └── .gitignore
 ```
@@ -55,8 +51,6 @@ The dataset contains ground-based sky images and corresponding photovoltaic powe
 4. Open the notebooks and update the dataset paths if your extracted folder structure is different.
 5. Run the Stage 1 notebook before running the Stage 2 notebook.
 
-**Note:** The raw dataset is not included in this GitHub repository because of its large file size. Download it directly from Kaggle using the link above.
-
 ## How to Run
 
 1. Clone or download this repository.
@@ -67,19 +61,6 @@ The dataset contains ground-based sky images and corresponding photovoltaic powe
 
 Run the notebooks in this order because Stage 2 depends on the feature outputs produced by Stage 1. Make sure the paths to the dataset, saved model, and generated feature files match your local environment.
 
-## Reported Results
-
-On the chronological held-out test set, the report records the following overall results for the complete ConvLSTM–LSTM model:
-
-| Metric | Result |
-|---|---:|
-| MAE | 1.1810 |
-| RMSE | 1.6597 |
-| R² | 0.9426 |
-| nRMSE | 6.38% |
-
-These are the results reported for the project's evaluated run. Results may vary if the notebooks are retrained with different settings or environments.
-
 ## Technologies Used
 
 - Python
@@ -87,7 +68,7 @@ These are the results reported for the project's evaluated run. Results may vary
 - NumPy
 - Matplotlib
 - Jupyter Notebook
-- Convolutional Neural Networks (CNN)
+- Convolutional Neural Networks (2D CNN)
 - Residual Learning and Attention Mechanisms (SE and CBAM)
 - ConvLSTM and LSTM
 
