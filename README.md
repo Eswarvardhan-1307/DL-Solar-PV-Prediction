@@ -41,11 +41,11 @@ This project uses the **SKIPPD 2019 (Sky Images and Photovoltaic Power) dataset*
 
 The dataset contains ground-based sky images and corresponding photovoltaic power measurements. This work uses the 2019 subset, consisting of 119,941 RGB sky images at a resolution of 64 × 64 pixels.
 
-**Dataset source:** [SKIPPD images](https://drive.google.com/drive/folders/1eWwjFdv2J0CQR6MHkOe0j7idrORSj56c)
+**Dataset source:** [SKIPPD images](https://drive.google.com/file/d/1lzjMykgZoD22-bQpLRReEKpqcn-PPGgR/view?usp=sharing)
 
 ### Download Instructions
 
-1. Visit the [SKIPPD images](https://drive.google.com/drive/folders/1eWwjFdv2J0CQR6MHkOe0j7idrORSj56c).
+1. Visit the [SKIPPD images](https://drive.google.com/file/d/1lzjMykgZoD22-bQpLRReEKpqcn-PPGgR/view?usp=sharing).
 2. Sign in to Kaggle and download the dataset (approximately 2 GB).
 3. Extract the downloaded files into the project's `data/` directory.
 4. Open the notebooks and update the dataset paths if your extracted folder structure is different.
